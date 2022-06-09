@@ -5,7 +5,7 @@ const app = express()
 
 app.get("/", (request, response, next) => {
     response.type("text/plain")
-    response.write("Some Response")
+    response.write("Some Response is cool")
     response.end()
 })
 

@@ -1,7 +1,7 @@
 FROM node:14 as base
 EXPOSE 8080
 LABEL maintainer="kyle.blue.nuttall@gmail.com"
-WORKDIR /src
+WORKDIR /app
 
 FROM base as release
 COPY src ./src
