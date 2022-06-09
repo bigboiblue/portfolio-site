@@ -4,7 +4,9 @@
   "description": "Portfolio website",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "build": "docker build --target release -t bigboiblue/portfolio",
+    "build:dev": "docker build --target dev -t bigboiblue/portfolio"
   },
   "repository": {
     "type": "git",
